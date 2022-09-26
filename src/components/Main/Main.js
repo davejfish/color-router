@@ -24,7 +24,7 @@ export default function Main() {
       <div className='main'>
         <Switch>
           <Route exact path='/'>{Home}</Route>
-          <Route path='/:r/:g/:b'>{Color}</Route>
+          <Route exact path='/rgb/:r/:g/:b'>{Color}</Route>
           <Route path='*'>{NotFound}</Route>
         </Switch>
       </div>
