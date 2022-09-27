@@ -1,5 +1,7 @@
+import './Home.css';
+
 export default function Home() {
   return (
-    <div>Home</div>
+    <h1 className='home'>Click a Color!</h1>
   );
 }
